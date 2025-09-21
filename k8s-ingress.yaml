@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dogfree-ingress
+spec:
+  rules:
+  - host: dogfree.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: dogfree-service
+            port:
+              number: 80

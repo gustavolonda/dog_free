@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dogfree-app
+  labels:
+    app: dogfree
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dogfree
+  template:
+    metadata:
+      labels:
+        app: dogfree
+    spec:
+      containers:
+      - name: dogfree-app
+        image: dogfree-app:latest  # Using local image
+        imagePullPolicy: IfNotPresent  # Will use local image if available
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "200m"
+            memory: "256Mi"
+      imagePullSecrets:
+      - name: regcred  # Only needed if using private registry
