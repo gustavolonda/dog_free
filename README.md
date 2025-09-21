@@ -1,6 +1,8 @@
 # DogFree - Dog Breeds Explorer
 A React application built with Vite that displays dog breeds information from the [Dog API](https://dogapi.dog/).
+
 ![Screenshot of DogFree App](Screenshot 2025-09-21 011759.png)
+
 ## Features- 
 View detailed information about different dog breeds- Search functionality to filter breeds- Responsive design with Bootstrap- TypeScript support- Docker and Kubernetes deployment ready
 ## Technologies Used
