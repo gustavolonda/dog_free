@@ -20,13 +20,13 @@ dog_free/ <br>
 │ ├── hooks/ # Custom hooks <br>
 │ ├── models/ # TypeScript interfaces <br>
 │ ├── services/ # API services <br>
-│ ├── App.tsx # Main application component 
-│ └── main.tsx # Application entry point 
-├── Dockerfile # Docker configuration 
-├── nginx.conf # Nginx server configuration 
-├── k8s-deployment.yaml # Kubernetes deployment 
-├── k8s-service.yaml # Kubernetes service 
-└── README.md # This file
+│ ├── App.tsx # Main application component <br>
+│ └── main.tsx # Application entry point <br>
+├── Dockerfile # Docker configuration <br>
+├── nginx.conf # Nginx server configuration <br>
+├── k8s-deployment.yaml # Kubernetes deployment <br>
+├── k8s-service.yaml # Kubernetes service <br>
+└── README.md # This file <br>
 
 ## Getting Started
 
