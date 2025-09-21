@@ -14,8 +14,8 @@ View detailed information about different dog breeds- Search functionality to fi
 - Kubernetes
 ## Project Structure
 dog_free/ 
-├── src/ │ 
-├── components/ # React components 
+├── src/ 
+│ ├── components/ # React components 
 │ ├── context/ # Global context 
 │ ├── hooks/ # Custom hooks 
 │ ├── models/ # TypeScript interfaces 
