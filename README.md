@@ -13,7 +13,7 @@ View detailed information about different dog breeds- Search functionality to fi
 - Docker
 - Kubernetes
 ## Project Structure
-dog_free/ 
+dog_free/
 ├── src/ 
 │ ├── components/ # React components 
 │ ├── context/ # Global context 
