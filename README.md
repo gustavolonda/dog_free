@@ -13,13 +13,13 @@ View detailed information about different dog breeds- Search functionality to fi
 - Docker
 - Kubernetes
 ## Project Structure
-dog_free/
-├── src/ 
-│ ├── components/ # React components 
-│ ├── context/ # Global context 
-│ ├── hooks/ # Custom hooks 
-│ ├── models/ # TypeScript interfaces 
-│ ├── services/ # API services
+dog_free/ <br>
+├── src/ <br>
+│ ├── components/ # React components <br>
+│ ├── context/ # Global context <br>
+│ ├── hooks/ # Custom hooks <br>
+│ ├── models/ # TypeScript interfaces <br>
+│ ├── services/ # API services <br>
 │ ├── App.tsx # Main application component 
 │ └── main.tsx # Application entry point 
 ├── Dockerfile # Docker configuration 
